@@ -60,8 +60,8 @@ if ($num>0) {
 
   
 
-// $uri=rtrim(dirname($_SERVER['PHP_SELF']),'/\\');
-// header("location:http://$host$uri/$extra");
+$uri=rtrim(dirname($_SERVER['PHP_SELF']),'/\\');
+header("location:http://$host$uri/$extra");
 
 } else {
 $errormsg="Invalid username or password";

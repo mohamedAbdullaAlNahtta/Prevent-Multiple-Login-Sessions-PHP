@@ -6,6 +6,7 @@ error_reporting(0);
 $token =md5(getToken(50)).getToken(50);
  $_SESSION['token'] = $token;
 
+
  
 // Generate token
 function getToken($length){
