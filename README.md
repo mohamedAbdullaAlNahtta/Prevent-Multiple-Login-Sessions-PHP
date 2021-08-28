@@ -53,13 +53,36 @@ users, and  login-sessions
 
 .
 ├── project-a
-│   ├── README.md
-│   └── TODO.md
+│   ├── README.md
+│   └── TODO.md
 ├── project-b
-│   └── TODO.md
+│   └── TODO.md
 └── project-c
     └── TODO.md
 
+
+.
+├── Include
+│   ├──config.php
+│   └── README.md
+│   
+├── Database
+│   └── test.sql
+│
+├── login.php
+│
+├── logout.php
+│
+├── index.php
+│
+├── pageone.php
+│
+├── pagetwo.php
+│
+├── pagethree.php
+│
+└── README.md
+    
 
 
 # Installation 
