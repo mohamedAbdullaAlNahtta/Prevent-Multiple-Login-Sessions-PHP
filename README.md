@@ -52,6 +52,14 @@ users, and  login-sessions
 
 # Illustration
 
+.
+├── project-a
+│   ├── README.md
+│   └── TODO.md
+├── project-b
+│   └── TODO.md
+└── project-c
+    └── TODO.md
 
 .
 ├── Include
