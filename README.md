@@ -50,6 +50,13 @@ the purpose of this only the idea of preventing multiple user login sessions so
 
 //  users, and  login-sessions
 
+
+# Installation 
+
+- after importing the database from the Database folder
+- modifay the config file which stored in include folder
+
+
 # TODO
 
 
