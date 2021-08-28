@@ -13,11 +13,6 @@ $num=mysqli_fetch_array($result);
 
 if ($num>0) {
 
-
-  $extra="index.php";
-  $host=$_SERVER['HTTP_HOST'];
-  $uri=rtrim(dirname($_SERVER['PHP_SELF']),'/\\');
-
   $token =md5(getToken(50)).getToken(50);
   
 
@@ -47,8 +42,7 @@ if ($num>0) {
 
   
 
-$uri=rtrim(dirname($_SERVER['PHP_SELF']),'/\\');
-header("location:http:index.php");
+header("location:index.php");
 
 } else {
 $errormsg="Invalid username or password";
