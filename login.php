@@ -48,7 +48,7 @@ if ($num>0) {
   
 
 $uri=rtrim(dirname($_SERVER['PHP_SELF']),'/\\');
-header("location:http://$host$uri/$extra");
+header("location:http:index.php");
 
 } else {
 $errormsg="Invalid username or password";

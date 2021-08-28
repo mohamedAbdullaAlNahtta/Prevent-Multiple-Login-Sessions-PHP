@@ -40,8 +40,7 @@ the purpose of this only the idea of preventing multiple user login sessions so
 
 - there is no hashing for password 
 - there is no escaping for user name and password strings
-- the user name or the password 
-
+- the user name or the password may be case sensitive
 
 ==> The project using PHP and Mysql 
 
