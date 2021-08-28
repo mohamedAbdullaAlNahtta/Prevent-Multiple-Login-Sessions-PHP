@@ -34,7 +34,14 @@ Greeting
 
 This a very small project to pervent Multiple session login per user 
 
-Using PHP and Mysql 
+==> Using PHP and Mysql 
+
+you can find the datbase tables as the below 
+
+=> users
+=> login-sessions
+
+
 
 
 
