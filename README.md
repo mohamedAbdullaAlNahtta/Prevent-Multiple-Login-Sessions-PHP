@@ -80,6 +80,8 @@ users, and  login-sessions
 
 # TODO
 
+ Adding an interface to control the session count per user 
+
 
 
 
