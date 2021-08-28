@@ -52,7 +52,7 @@ users, and  login-sessions
 
 # Illustration
 
-%&#
+
 .
 ├── Include
 │   ├──config.php
