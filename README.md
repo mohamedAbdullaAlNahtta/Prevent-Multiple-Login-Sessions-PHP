@@ -43,13 +43,13 @@ the purpose of this only the idea of preventing multiple user login sessions so
 - the user name or the password 
 
 
-==> the system Using PHP and Mysql 
+==> The project using PHP and Mysql 
 
 // you can find the datbase with extension .sql in databse folder 
 
 // tables as the below 
 
-// => users, and  login-sessions
+//  users, and  login-sessions
 
 # TODO
 
