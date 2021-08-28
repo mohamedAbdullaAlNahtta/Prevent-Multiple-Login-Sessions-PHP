@@ -49,6 +49,15 @@ the purpose of this only the idea of preventing multiple user login sessions so
 
 users, and  login-sessions
 
+.
+├── build                   # Compiled files (alternatively `dist`)
+├── docs                    # Documentation files (alternatively `doc`)
+├── src                     # Source files (alternatively `lib` or `app`)
+├── test                    # Automated tests (alternatively `spec` or `tests`)
+├── tools                   # Tools and utilities
+├── LICENSE
+└── README.md
+
 # Illustration
 
 .
