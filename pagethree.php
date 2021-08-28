@@ -1,16 +1,33 @@
 <?php
-
-
-
-
 session_start();
-
-session_destroy();
-session_unset();
+error_reporting(0);
 
 
+/*database connection */
+$servername = "127.0.0.1";
+$username = "root";
+$password = "";
+$dbname = "prvent-multiple-sessions-login";
 
+// Create connection
+$connection = mysqli_connect($servername, $username, $password, $dbname);
 
+// Check connection
+if (!$connection) {
+    die("Connection failed: Please Contact Your Administrator ");
+}
+
+$username = $_SESSION['username'];
+$password = $_SESSION['password'];
+$token = $_SESSION['token'];
+
+$reso=mysqli_query($connection,"SELECT * FROM `login-sessions` WHERE `username`='$username' AND `token`='$token' AND `loginOut` IS NULL");
+
+$numo=mysqli_fetch_array($reso);
+
+if ($numo<=0) {
+  header("location: logout.php");
+}
 ?>
 <!DOCTYPE html>
 <html>
