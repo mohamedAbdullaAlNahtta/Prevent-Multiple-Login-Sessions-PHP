@@ -2,7 +2,7 @@
 session_start();
 error_reporting(0);
 
-include("dark/includes/mysql_connection_arabicss.php");
+include("include/config.php");
 
 if (isset($_POST['submit'])) {
 
