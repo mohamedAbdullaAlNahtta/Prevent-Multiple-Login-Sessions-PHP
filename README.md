@@ -51,16 +51,14 @@ users, and  login-sessions
 
 # Illustration
 
-@ 
 .
-├── project-a
-│   ├── README.md
-│   └── TODO.md
-├── project-b
-│   └── TODO.md
-└── project-c
-    └── TODO.md
-@ 
+├── build                   # Compiled files (alternatively `dist`)
+├── docs                    # Documentation files (alternatively `doc`)
+├── src                     # Source files (alternatively `lib` or `app`)
+├── test                    # Automated tests (alternatively `spec` or `tests`)
+├── tools                   # Tools and utilities
+├── LICENSE
+└── README.md
 
 .
 ├── Include
