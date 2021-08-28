@@ -52,8 +52,9 @@ users, and  login-sessions
 
 # Illustration
 
-.&
-├── Include&
+%&#
+.
+├── Include
 │   ├──config.php
 │   └── README.md
 │   
