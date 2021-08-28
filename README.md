@@ -32,7 +32,8 @@ Powered by ENG Muhammad Abdullah El Nahtta @ Copyright © 2021 All rights reserv
 
 Greeting 
 
-This a very small project to pervent Multiple session login per user using PHP and Mysql NO CSS or jequery just HTML tags 
+This a very small project to pervent Multiple session login per user using PHP and Mysql,
+NO CSS or jequery just HTML tags 
 
 # Note 
 
@@ -47,6 +48,30 @@ the purpose of this only the idea of preventing multiple user login sessions so
 // tables as the below 
 
 users, and  login-sessions
+
+# Illustration
+
+.
+├── Include
+│   └── config.php
+│   
+├── Database
+│   └── test.sql
+│
+├── login.php
+│
+├── logout.php
+│
+├── index.php
+│
+├── pageone.php
+│
+├── pagetwo.php
+│
+├── pagethree.php
+│
+└── README.md
+    
 
 
 # Installation 
