@@ -38,8 +38,8 @@ This a very small project to pervent Multiple session login per user
 
 you can find the datbase tables as the below 
 
-=> users
-=> login-sessions
+ users
+ login-sessions
 
 
 
