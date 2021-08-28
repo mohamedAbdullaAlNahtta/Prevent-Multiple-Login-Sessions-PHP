@@ -53,7 +53,8 @@ users, and  login-sessions
 
 .
 ├── Include
-│   └── config.php
+│   ├──config.php
+│   └── README.md
 │   
 ├── Database
 │   └── test.sql
