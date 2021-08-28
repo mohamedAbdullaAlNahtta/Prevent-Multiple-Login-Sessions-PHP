@@ -57,22 +57,14 @@ users, and  login-sessions
 ├── Include
 │   ├──config.php
 │   └── README.md
-│   
 ├── Database
 │   └── test.sql
-│
 ├── login.php
-│
 ├── logout.php
-│
 ├── index.php
-│
 ├── pageone.php
-│
 ├── pagetwo.php
-│
 ├── pagethree.php
-│
 └── README.md
 .
     
