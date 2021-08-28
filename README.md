@@ -72,8 +72,8 @@ users, and  login-sessions
 
 # Installation 
 
-- after importing the database from the Database folder
-- modifay the config file which stored in include folder
+- after importing the database (test.sql) from the Database folder
+- modifay the config file which stored in include folder with your mysql IP, and credinail 
 
 
 # TODO
