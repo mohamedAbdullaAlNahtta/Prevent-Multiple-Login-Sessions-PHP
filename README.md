@@ -28,3 +28,13 @@ Powered by ENG Muhammad Abdullah El Nahtta @ Copyright © 2021 All rights reserv
        %%###(#(((#(#(####%%%%%%%&,       %%%&&&...     .&&&&%%%%%&&&&&&&&&&&&&&&
 
 Powered by ENG Muhammad Abdullah El Nahtta @ Copyright © 2021 All rights reserved 
+
+
+Greeting 
+
+This a very small project to pervent Multiple session login per user 
+
+Using PHP and Mysql 
+
+
+
