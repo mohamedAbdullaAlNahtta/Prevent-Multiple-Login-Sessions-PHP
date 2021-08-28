@@ -3,19 +3,7 @@ session_start();
 error_reporting(0);
 
 
-/*database connection */
-$servername = "127.0.0.1";
-$username = "root";
-$password = "";
-$dbname = "prvent-multiple-sessions-login";
-
-// Create connection
-$connection = mysqli_connect($servername, $username, $password, $dbname);
-
-// Check connection
-if (!$connection) {
-    die("Connection failed: Please Contact Your Administrator ");
-}
+include("include/config.php");
 
 $username = $_SESSION['username'];
 $password = $_SESSION['password'];
@@ -37,6 +25,14 @@ if ($numo<=0) {
 <body>
 
 <center><h1>Page one</h1></center>
+<br>
+<center><h1>
+<?php
+
+echo "Session for User Name : ".$username."....";
+
+?>	
+</h1></center>
 
 <br>
 <a href="index.php"> index page </a>

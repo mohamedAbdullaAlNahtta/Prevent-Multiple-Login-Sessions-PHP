@@ -2,20 +2,7 @@
 session_start();
 error_reporting(0);
 
-/*database connection */
-$servername = "127.0.0.1";
-$username = "root";
-$password = "";
-$dbname = "prvent-multiple-sessions-login";
-
-// Create connection
-$connection = mysqli_connect($servername, $username, $password, $dbname);
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-
-// Check connection
-if (!$connection) {
-    die("Connection failed: Please Contact Your Administrator ");
-}
+include("dark/includes/mysql_connection_arabicss.php");
 
 if (isset($_POST['submit'])) {
 
@@ -47,14 +34,14 @@ if ($num>0) {
   $sql = "UPDATE `login-sessions` SET `loginOut` = NOW() WHERE `login-sessions`.`username`='".$_SESSION['username']."';";
   $sql.="INSERT INTO `login-sessions` ( `username`, `token`, `loginTme`) VALUES ('".$_SESSION['username']."', '$token', NOW())";
 
-  $res=mysqli_multi_query($conn,$sql);
+  $res=mysqli_multi_query($connection,$sql);
     
   } else {
 
   $sql="INSERT INTO `login-sessions` ( `username`, `token`, `loginTme`) VALUES ('".$_SESSION['username']."', '$token', NOW())";
 
 
-  $res=mysqli_query($conn,$sql);
+  $res=mysqli_query($connection,$sql);
     
   }
 
