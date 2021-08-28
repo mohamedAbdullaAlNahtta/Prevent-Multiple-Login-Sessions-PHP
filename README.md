@@ -60,28 +60,6 @@ users, and  login-sessions
 └── project-c
     └── TODO.md
 
-.
-├── Include
-│   ├──config.php
-│   └── README.md
-│   
-├── Database
-│   └── test.sql
-│
-├── login.php
-│
-├── logout.php
-│
-├── index.php
-│
-├── pageone.php
-│
-├── pagetwo.php
-│
-├── pagethree.php
-│
-└── README.md
-    
 
 
 # Installation 
