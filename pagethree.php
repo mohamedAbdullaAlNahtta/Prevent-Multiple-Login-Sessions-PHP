@@ -14,7 +14,7 @@ $reso=mysqli_query($connection,"SELECT * FROM `login-sessions` WHERE `username`=
 $numo=mysqli_fetch_array($reso);
 
 if ($numo<=0) {
-  header("location: logout.php");
+  header("location:logout.php");
 }
 ?>
 <!DOCTYPE html>
