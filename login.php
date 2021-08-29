@@ -35,12 +35,10 @@ if ($num>0) {
 
   $sql="INSERT INTO `login-sessions` ( `username`, `token`, `loginTme`) VALUES ('".$_SESSION['username']."', '$token', NOW())";
 
-
   $res=mysqli_query($connection,$sql);
     
   }
 
-  
 
 header("location:index.php");
 
