@@ -12,7 +12,7 @@ session_unset();
 
 session_start();
 error_reporting(0);
-$_SESSION['errormsg']=;
+$_SESSION['errormsg']=$errormsg;
 
 header("location:login.php");
 
