@@ -6,6 +6,8 @@ include("include/config.php");
 
 $errormsg=$_SESSION['errormsg'];
 
+var_dump($errormsg);
+
 if (isset($_POST['submit'])) {
 
 
