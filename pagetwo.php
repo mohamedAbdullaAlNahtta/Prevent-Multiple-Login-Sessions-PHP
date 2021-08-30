@@ -15,6 +15,7 @@ $numo=mysqli_fetch_array($reso);
 
 if ($numo<=0) {
   header("location:logout.php");
+  $_SESSION['errormsg']="Your Account is Already logged in from else where";
 }
 ?>
 <!DOCTYPE html>
