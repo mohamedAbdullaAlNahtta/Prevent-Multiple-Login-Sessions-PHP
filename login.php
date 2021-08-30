@@ -6,6 +6,21 @@ include("include/config.php");
 
 $errormsg=$_SESSION['errormsg'];
 
+// this part for error check 
+$username = $_SESSION['username'];
+$password = $_SESSION['password'];
+$token = $_SESSION['token'];
+
+
+var_dump($errormsg);
+echo '<br>';
+var_dump($username);
+echo '<br>';
+var_dump($password);
+echo '<br>';
+var_dump($token);
+echo '<br>';
+// end this part for error check 
 
 if (isset($_POST['submit'])) {
 
