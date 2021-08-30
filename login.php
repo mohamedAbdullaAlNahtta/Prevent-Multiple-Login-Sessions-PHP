@@ -4,7 +4,7 @@ error_reporting(0);
 
 include("include/config.php");
 
-$errormsg;
+$errormsg=$_SESSION['errormsg'];
 
 if (isset($_POST['submit'])) {
 
