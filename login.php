@@ -5,8 +5,19 @@ error_reporting(0);
 include("include/config.php");
 
 $errormsg=$_SESSION['errormsg'];
+$username = $_SESSION['username'];
+$password = $_SESSION['password'];
+$token = $_SESSION['token'];
+
 
 var_dump($errormsg);
+echo '<br>';
+var_dump($username);
+echo '<br>';
+var_dump($password);
+echo '<br>';
+var_dump($token);
+echo '<br>';
 
 if (isset($_POST['submit'])) {
 
